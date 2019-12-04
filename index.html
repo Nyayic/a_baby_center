@@ -11,25 +11,23 @@
 
   <title>J B C - Baby Center</title>
 
-  <!-- Bootstrap core CSS -->
+  <!-- Bootstrap & CSS -->
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom fonts for this template -->
+  
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-  <link href="assets/font-awesome/all.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 
-  <!-- Custom styles for this template -->
+  <!-- Custom styles  -->
   <link href="assets/css/home-page.min.css" rel="stylesheet">
 
 </head>
 
 <body style="background-image: url(images/girl-eating-watermelon.jpg);background-size: cover;">
 
-  <div class="overlay"></div>
-  <!--video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="images/bg-v.mp4" type="video/mp4">
-  </video-->
+  <!--div class="overlay"></div-->
+  
 
   <div class="masthead">
     <div class="masthead-bg"></div>
@@ -43,9 +41,35 @@
             <p class="mb-5">“junior baby center ” (JBC) runs a babysitting service.
               <strong>for kids</strong>! Sign up or Login for updates using the form below!</p>
             <div class="input-group input-group">
-              <input type="submit" class="btn btn-outline-secondary" value="Login">
+             
+              <!-- Login modal -->
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Request for an appointment
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          ...
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <input type="submit" class="btn btn-outline-danger" value="Register">
+              <a href="login.html"   class="btn btn-outline-danger"> Login</a>
               
             </div>
           </div>
@@ -63,22 +87,22 @@
       </li>
       <li class="list-item">
         <a href="#">
-          <i class="fas fa-facebook"></i>
+          <i class="fab fa-facebook"></i>
         </a>
       </li>
       <li class="list-unstyled-item">
         <a href="#">
-          <i class="fas fa-instagram"></i>
+          <i class="fab fa-instagram"></i>
         </a>
       </li>
     </ul>
   </div>
 
-  <!-- Bootstrap core JavaScript -->
+  <!-- Bootstrap & JavaScript -->
   <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Custom scripts for this template -->
   <script src="assets/js/home-page.min.js"></script>
 
 </body>

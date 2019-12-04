@@ -38,15 +38,15 @@ video {
   z-index: 0;
 }
 
-@media (pointer: coarse) and (hover: none) {
+/* @media (pointer: coarse) and (hover: none) {
   body {
-    background: url("images/bg-mobile-fallback.jpg") #002E66 no-repeat center center scroll;
+    background: url("images/bg-mobile-fallback.jpg")  rgb(58, 6, 6); no-repeat; center scroll;
     background-position: cover;
   }
   body video {
     display: none;
   }
-}
+} */
 
 .overlay {
   position: absolute;
@@ -55,7 +55,7 @@ video {
   height: 100%;
   width: 100%;
   background-color: #cd9557;
-  opacity: 0.7;
+  opacity: 0.5;
   z-index: 1;
 }
 
@@ -75,7 +75,8 @@ video {
   width: 100%;
   min-height: 35rem;
   height: 100%;
-  background-color: rgba(0, 46, 102, 0.8);
+  background-color:  rgb(58, 6, 6);
+  background-color: transparent;
   transform: skewY(4deg);
   transform-origin: bottom right;
 }
@@ -152,7 +153,7 @@ video {
 .social-icons ul > li > a {
   display: block;
   color: white;
-  background-color: rgba(0, 46, 102, 0.8);
+  background-color:  rgb(58, 6, 6);;
   border-radius: 100%;
   font-size: 2rem;
   line-height: 4rem;
@@ -189,7 +190,7 @@ video {
     width: 4rem;
   }
   .social-icons ul > li > a:hover {
-    background-color: #002E66;
+    background-color: #ffffff;
   }
 }
 
