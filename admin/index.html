@@ -9,7 +9,7 @@
    
 
     <!-- Title Page-->
-    <title>J B C - Baby Center</title>
+    <title>J B C - Admin</title>
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
@@ -56,14 +56,17 @@
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
                         <li class="has-sub">
-                            <a class="js-arrow" href="#">
+                            <a class="js-arrow" href="index.html">
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
                         </li>
                         <li>
                             <a href="customers.html">
                                 <i class="fas fa-chart-bar"></i>Customers</a>
                         </li>
-                       
+                        <li>
+                            <a href="payments.html">
+                                <i class="fas fa-chart-bar"></i>Payments</a>
+                        </li>
                         <li>
                             <a href="employees.html">
                                 <i class="far fa-check-square"></i>Employees</a>
@@ -90,7 +93,7 @@
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
                         <li class="active has-sub">
-                            <a class="js-arrow" href="#">
+                            <a class="js-arrow" href="index.html">
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
                            
                         </li>
@@ -98,7 +101,10 @@
                         <a href="customers.html">
                             <i class="fas fa-chart-bar"></i>Customers</a>
                             </li>
-                            
+                            <li>
+                                <a href="payments.html">
+                                    <i class="fas fa-chart-bar"></i>Payments</a>
+                            </li>
                             <li>
                                 <a href="employees.html">
                                     <i class="far fa-check-square"></i>Employees</a>
@@ -299,8 +305,8 @@
                             <div class="col-md-12">
                                 <div class="overview-wrap">
                                     <h2 class="title-1">activities</h2>
-                                    <button class="au-btn au-btn-icon au-btn--blue">
-                                        <i class="zmdi zmdi-plus"></i>add employee</button>
+                                    <!--button class="au-btn au-btn-icon au-btn--blue">
+                                        <i class="zmdi zmdi-plus"></i>add employee</button-->
                                 </div>
                             </div>
                         </div>
@@ -409,7 +415,7 @@
                                     </div>
                                     <div class="table-data__tool-right">
                                         <button class="au-btn au-btn-icon au-btn--green au-btn--small">
-                                            <i class="zmdi zmdi-plus"></i>add employee</button>
+                                            <i class="zmdi zmdi-plus"></i>add activity</button>
                                         <div class="rs-select2--dark rs-select2--sm rs-select2--dark2">
                                             <select class="js-select2" name="type">
                                                 <option selected="selected">Export</option>
@@ -436,7 +442,7 @@
                                                 <th>date</th>
                                                 <th>status</th>
                                                 <th>club</th>
-                                                <th></th>
+                                                
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -448,14 +454,10 @@
                                                     </label>
                                                 </td>
                                                 <td>Lori Lynch</td>
-                                                <td>
-                                                    <span class="block-email">lori@example.com</span>
-                                                </td>
+                                                <td><span class="block-email">lori@example.com</span></td>
                                                 <td class="desc">Samsung S8 Black</td>
                                                 <td>2018-09-27 02:12</td>
-                                                <td>
-                                                    <span class="status--process">Processed</span>
-                                                </td>
+                                                <td><span class="status--process">Processed</span></td>
                                                 <td>$679.00</td>
                                                 <td>
                                                     <div class="table-data-feature">
